@@ -149,7 +149,7 @@ public class AAOptions: AAObject {
     }
     
     
-    @available(*, unavailable, message: "This setter function is useless now, please remove it directly")
+    //@available(*, unavailable, message: "This setter function is useless now, please remove it directly")
     public func touchEventEnabled(_ prop: Bool?) -> AAOptions {
 //        touchEventEnabled = prop
         return self
